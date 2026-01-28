@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(express.static('public')); // Serve frontend files
 
 // MongoDB Connection (replace with your MongoDB Atlas URI)
-mongoose.connect('mongodb+srv://your-username:your-password@cluster0.mongodb.net/youtube-automation?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://rmtiktokcontents_db_user:8ADApvqPYumSbQn6@cluster0.imqndl9.mongodb.net/?appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log('MongoDB connected'))
